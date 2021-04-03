@@ -1,0 +1,69 @@
+.barrasuperior{
+    width: 100%;
+    margin: 1px auto;
+    padding: 0px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 1.5rem;
+    margin: 5px auto;
+}
+.content{
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 35px;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+
+}
+.publicacion{
+    width: 30em;
+    height: 20em;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-top: 35px;
+    background-color: lightgray;
+}
+.top{
+    background-color: white;
+    margin: 0;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: 30em;
+    height: 20em;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+ 
+    object-fit: cover;
+    object-position: center center;
+}
+.button{
+    background-color: white;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid lightgray;
+}
+body{
+    width: 25rem;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    
+}
